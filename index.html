@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="data.js"></script>
+    <script type="module" src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/fbd1f415ae.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    /> -->
+    <title>Restaurant Menu</title>
+  </head>
+  <body>
+    <nav>
+      <h1><i class="fa-solid fa-utensils"></i> Restaurant Menu</h1>
+      <h2 class="dropdown">
+        Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        <span id="cost"></span>
+        <div class="dropdown-content">
+          <div>Your Cart</div>
+          <div id="items">Empty!</div>
+          <table></table>
+          <div class="totalBill"></div>
+          <div class="btn-group">
+            <button class="buyBtn">Buy</button>
+            <button class="resetBtn">Reset</button>
+          </div>
+        </div>
+      </h2>
+    </nav>
+    <main class="cards" id="card-container"></main>
+    <footer>
+      <div class="foot">
+        <div class="about">
+          <h2><u>About</u></h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
+            sint vel neque sapiente eaque voluptatibus nesciunt impedit cumque
+            quod eius quisquam odio distinctio nulla laudantium nobis, rem
+            repudiandae odit quos?
+          </p>
+        </div>
+        <div class="contact">
+          <h2><u>Contact</u></h2>
+          <p>Email: rest@gmail.com</p>
+          <p>Phone: 432843948</p>
+          <p>Address: C-14, John Street</p>
+          <div class="social-icons">
+            <i class="fa fa-facebook" title="Facebook"></i>
+            <i class="fa-brands fa-twitter" title="Twitter"></i>
+            <i class="fa-brands fa-instagram" title="Instagram"></i>
+            <i class="fa-brands fa-pinterest-p" title="Pinterest"></i>
+          </div>
+        </div>
+      </div>
+      <h3>&copy; Restaurant 2022</h3>
+    </footer>
+  </body>
+</html>
