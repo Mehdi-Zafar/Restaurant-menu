@@ -184,8 +184,7 @@ td {
   border: 2px solid black;
   border-collapse: collapse;
   padding: 5px;
-  /* padding-inline: 10px; */
-  font-size: large;
+  font-size: medium;
   margin-inline: auto;
 }
 
@@ -195,4 +194,27 @@ div.totalBill {
 
 #items {
   display: block;
+}
+
+@media screen and (max-width: 1024px) {
+  nav {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .dropdown-content {
+    max-width: 250px;
+  }
+  table,
+  th,
+  td {
+    font-size: small;
+  }
+  div.foot {
+    flex-direction: column;
+  }
+  div.about {
+    width: 100%;
+  }
 }
